@@ -379,6 +379,17 @@ files = [
 ]
 
 [[package]]
+name = "einops"
+version = "0.8.0"
+description = "A new flavour of deep learning operations"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "einops-0.8.0-py3-none-any.whl", hash = "sha256:9572fb63046264a862693b0a87088af3bdc8c068fde03de63453cbbde245465f"},
+    {file = "einops-0.8.0.tar.gz", hash = "sha256:63486517fed345712a8385c100cb279108d9d47e6ae59099b07657e983deae85"},
+]
+
+[[package]]
 name = "exceptiongroup"
 version = "1.2.1"
 description = "Backport of PEP 654 (exception groups)"
@@ -1579,6 +1590,21 @@ test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4.3)", "pytest-
 type = ["mypy (>=1.8)"]
 
 [[package]]
+name = "plotly"
+version = "5.22.0"
+description = "An open-source, interactive data visualization library for Python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "plotly-5.22.0-py3-none-any.whl", hash = "sha256:68fc1901f098daeb233cc3dd44ec9dc31fb3ca4f4e53189344199c43496ed006"},
+    {file = "plotly-5.22.0.tar.gz", hash = "sha256:859fdadbd86b5770ae2466e542b761b247d1c6b49daed765b95bb8c7063e7469"},
+]
+
+[package.dependencies]
+packaging = "*"
+tenacity = ">=6.2.0"
+
+[[package]]
 name = "pluggy"
 version = "1.5.0"
 description = "plugin and hook calling mechanisms for python"
@@ -2072,6 +2098,21 @@ files = [
 ]
 
 [[package]]
+name = "tenacity"
+version = "8.5.0"
+description = "Retry code until it succeeds"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "tenacity-8.5.0-py3-none-any.whl", hash = "sha256:b594c2a5945830c267ce6b79a166228323ed52718f30302c1359836112346687"},
+    {file = "tenacity-8.5.0.tar.gz", hash = "sha256:8bc6c0c8a09b31e6cad13c47afbed1a567518250a9a171418582ed8d9c20ca78"},
+]
+
+[package.extras]
+doc = ["reno", "sphinx"]
+test = ["pytest", "tornado (>=4.5)", "typeguard"]
+
+[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -2454,4 +2495,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10, <4.0"
-content-hash = "5b4fba91221b09f41b4d4663a13669dc07c4f8d057790a646660bf7cd3240c93"
+content-hash = "28a1d1ecb2473353a24004407362e8ad1bc14a100d9f7330e200dd7bc14213ae"
