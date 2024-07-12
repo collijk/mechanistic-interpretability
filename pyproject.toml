@@ -32,6 +32,9 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.10, <4.0"
 click = "*"
+torch = "^2.3.1"
+pytorch-lightning = "^2.3.3"
+torchvision = "^0.18.1"
 
 [tool.poetry.group.dev.dependencies]
 mkdocstrings = {version = ">=0.23", extras = ["python"]}
