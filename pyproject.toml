@@ -37,6 +37,8 @@ pytorch-lightning = "^2.3.3"
 torchvision = "^0.18.1"
 einops = "^0.8.0"
 plotly = "^5.22.0"
+jaxtyping = "^0.2.33"
+typeguard = "^2.13"
 
 [tool.poetry.group.dev.dependencies]
 mkdocstrings = {version = ">=0.23", extras = ["python"]}
